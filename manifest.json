@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+
+  "name": "Activity Manager",
+  "description": "",
+  "version": "0.0.1",
+
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+
+  "background": {
+    "service_worker": "src/service/service.js",
+    "type": "module"
+  },
+
+  "action": {
+    "default_popup": "index.html"
+  }
+}
